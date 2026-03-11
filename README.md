@@ -1,16 +1,44 @@
-# fluxo_board
+# FluxoBoard
 
-A new Flutter project.
+Sistema de controle financeiro pessoal com foco em dashboard, organização de receitas e despesas, parcelamentos, recorrências, metas e relatórios.
 
-## Getting Started
+> **Controle seu dinheiro com clareza: registre, acompanhe e planeje tudo em um único dashboard.**
 
-This project is a starting point for a Flutter application.
+## Objetivo
 
-A few resources to get you started if this is your first Flutter project:
+Transformar o controle manual de gastos em uma experiência visual, simples e inteligente.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Principais recursos
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Dashboard financeiro
+- Cadastro de receitas e despesas
+- Categorias e formas de pagamento
+- Parcelamentos
+- Recorrências
+- Metas financeiras
+- Relatórios
+
+## Documentação
+
+- [Visão e escopo](docs/vision.md)
+- [Requisitos](docs/requisitos.md)
+- [Regras de negócio](docs/regras-negocio.md)
+- [Produto: funcionalidades, personas, jornadas](docs/produto.md)
+- [Modelagem de dados e API](docs/dados-e-api.md)
+- [Backlog e roadmap](docs/backlog.md)
+- [Arquitetura, stack e anexos](docs/anexos.md)
+
+## Como executar
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Status
+
+Em planejamento e construção inicial.
+
+## Autor
+
+Hugo Guilherme Vaz Mesquita
