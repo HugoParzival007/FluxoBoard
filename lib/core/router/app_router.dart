@@ -6,6 +6,8 @@ import '../../modules/auth/presentation/pages/register_page.dart';
 import '../../modules/categories/presentation/pages/categories_page.dart';
 import '../../modules/dashboard/presentation/pages/dashboard_page.dart';
 import '../../modules/settings/presentation/pages/settings_page.dart';
+import '../../modules/transactions/presentation/pages/transaction_form_page.dart';
+import '../../modules/transactions/presentation/pages/transactions_page.dart';
 import 'app_routes.dart';
 
 final goRouterProvider = Provider<GoRouter>((ref) {
@@ -37,6 +39,16 @@ final goRouterProvider = Provider<GoRouter>((ref) {
         path: AppRoutes.categories,
         name: 'categories',
         builder: (context, state) => const CategoriesPage(),
+      ),
+      GoRoute(
+        path: AppRoutes.transactions,
+        name: 'transactions',
+        builder: (context, state) => const TransactionsPage(),
+      ),
+      GoRoute(
+        path: AppRoutes.transactionForm,
+        name: 'transactionForm',
+        builder: (context, state) => const TransactionFormPage(),
       ),
     ],
   );
